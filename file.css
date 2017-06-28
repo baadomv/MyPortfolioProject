@@ -1,0 +1,294 @@
+html{
+  font-size: 16px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  
+}
+
+.logoarea{
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Quando', serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.logoarea p{
+  padding-left: 5vw;
+  color: #242424;
+}
+
+.navarea{
+  font-family: 'Raleway', sans-serif;
+  width: 50vw;
+  height: 10vh;
+  font-weight: 900;
+  color: #000;
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: flex-end;
+}
+
+.navarea ul{
+  list-style: none; 
+  padding-right: 5vw;
+}
+
+.navarea ul li{
+  display: inline-block;
+  padding-left: 3vw;
+  
+}
+
+.navarea ul li a{
+  text-decoration: none;
+  color: #242424;
+  padding-bottom: 2vh;
+}
+
+.navarea ul li:hover a{
+  color: #ff5a5f;
+  border-bottom: 0.2em solid #ff5a5f;
+}
+
+/*HOME*/
+.home{
+  width: 100%;
+  height: 90vh;
+  
+}
+
+.home h1{
+  font-family: 'Quando', serif;
+  width: 45vw;
+  height: 50vh;
+  font-size: 2rem;
+  padding-left: 5vw;
+  margin-top: 20vh;
+}
+
+.explore{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-flow: ro wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-size; 1rem;
+}
+
+.explore p:hover a{
+  color: #ff5a5f;
+  
+}
+
+.explore p a{
+  text-decoration: none;
+  color: #242424;
+}
+
+/*ABOUT SECTION*/
+.aboutsection{
+  width: 100%;
+  height: 70vh;
+  background-color:#fff98e;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutphoto{
+  width: 30vw;
+  height: 100%;
+  background: #334e45;
+  margin-left: 5vw;
+}
+
+.aboutme{
+  width: 40vw;
+  height: 100%;
+  padding-right: 5vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.aboutme h1, .worktext h1{
+  font-family: 'Quando', serif;
+  font-family: 1.5rem;
+}
+
+.aboutme p, .worktext p{
+  font-family: 'Raleway', sans-serif;
+}
+
+/*WORK*/
+.worksection{
+  width: 100%;
+  height: 70vh;
+  background: #c2aff0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.worktext{
+  width: 40vw;
+  height: 100%;
+  
+  margin-left: 5vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  
+}
+
+.worktext h1{
+  
+}
+
+.worktext p{
+  width: 80%;
+  
+}
+
+.workgallery{
+  margin-right: 5vw;
+  height: 100%;
+  width: 40vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.gcard{
+  width: 50%;
+  height: 50%;
+  
+}
+
+.one{
+  background:#e84855;
+}
+
+.two{
+  background:#f9dc5c;
+}
+
+.three{
+  background:#2396e8;
+}
+
+.four{
+  background:#2e5266;
+}
+
+.footer{
+  width: 100%;
+  height: 35vh;
+  background: #000;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footersection{
+  width: 87vw;
+  height: 80%;
+  
+  display: flex;
+  flex-flow: row wrap;
+  align-items:center;
+  justify-content: center;
+  color: #fff;
+}
+
+.letstalk{
+  width: 25%;
+  height: 100%;
+  
+}
+
+.letstalk h1{
+  font-family: 'Quando', serif;
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.letstalk ul{
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.75rem;
+  list-style: none;
+}
+
+.outline{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  line-height: 2;
+  font-family: 'Raleway', sans-serif;
+}
+
+.outline ul{
+  list-style: none;
+  font-size: 0.75rem;
+}
+
+.blank{
+  width: 25%;
+  height: 100%;
+}
+
+.cright{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cright h1{
+  font-family: 'Quando', serif;
+  font-size: 1.5rem;
+  
+  
+}
+
+.cright p{
+  font-family: 'raleway', sans-serif;
+  font-size; 0.75rem;
+}
